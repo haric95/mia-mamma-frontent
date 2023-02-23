@@ -10,12 +10,12 @@ export const Header = () => {
   const router = useRouter();
 
   return (
-    <header className="fixed top-0 z-50 w-full font-title bg-white px-8 py-2 flex md:flex-row flex-col text-white">
+    <header className="fixed top-0 z-50 w-full font-title bg-white px-8 py-2 flex md:flex-row flex-col text-white md:h-28">
       <div className="flex items-center mr-auto">
         <div className={`flex items-center`}>
           <LinkArray
             links={[
-              { label: "Home", link: "/home", external: false },
+              { label: "Home", link: "/", external: false },
               { label: "Our Mission", link: "/our-mission", external: false },
               { label: "About Us", link: "/about-us", external: false },
               {
@@ -24,12 +24,15 @@ export const Header = () => {
                 external: false,
               },
             ]}
+            linkClass="text-center"
           />
         </div>
       </div>
-      <div>
-        <img src="/images/logo.png" alt="logo" className="h-32" />
-      </div>
+      <Link href="/">
+        <button>
+          <img src="/images/logo.png" alt="logo" className="h-24" />
+        </button>
+      </Link>
       <div className="flex items-center ml-auto">
         <div className={`flex items-center`}>
           <LinkArray
@@ -38,6 +41,7 @@ export const Header = () => {
               { label: "Visit Us", link: "/visit-us", external: false },
               { label: "Contact", link: "/contact", external: false },
             ]}
+            linkClass="text-center"
           />
         </div>
         <div className={`flex items-center`}>
@@ -49,7 +53,7 @@ export const Header = () => {
                 external: true,
               },
             ]}
-            containerClass="bg-red-500 ml-2"
+            containerClass="bg-red-500 ml-4 text-center"
           />
         </div>
       </div>

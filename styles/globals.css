@@ -2,56 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-display: swap;
-  font-family: 'Ogg';
-  font-style: normal;
-  font-weight: 700;
-  src: url(/fonts/OggBold.woff2);
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Ogg';
-  font-style: normal;
-  font-weight: 600;
-  src: url(/fonts/OggMedium.woff2);
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Ogg';
-  font-style: normal;
-  font-weight: 500;
-  src: url(/fonts/OggRegular.woff2);
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Ogg';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/fonts/OggLight.woff2);
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Ogg';
-  font-style: italic;
-  font-weight: 600;
-  src: url(/fonts/OggMediumItalic.woff2);
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Ogg';
-  font-style: italic;
-  font-weight: 500;
-  src: url(/fonts/OggRegularItalic.woff2);
-}
-@font-face {
-  font-display: swap;
-  font-family: 'Ogg';
-  font-style: italic;
-  font-weight: 400;
-  src: url(/fonts/OggLightItalic.woff2);
-}
-
 html,
 body {
   padding: 0;
@@ -75,18 +25,22 @@ a {
 
 h1 {
   font-size: 64px;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 48px;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 32px;
+  font-weight: 600;
 }
 
 h4 {
   font-size: 24px;
+  font-weight: 600;
 }
 
 ::selection {
