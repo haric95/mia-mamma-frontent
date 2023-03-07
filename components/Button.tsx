@@ -10,7 +10,7 @@ export const Button: React.FC<ButtonProps> = ({ ...props }) => {
   return (
     <button
       {...props}
-      className={`transition-all transition-duration-100 bg-button hover:bg-buttondark py-2 px-4 ${props.className}`}
+      className={`transition-all transition-duration-100 bg-red-500 hover:bg-red-600 py-2 px-4 rounded-full text-white font-medium w-fit ${props.className}`}
     ></button>
   );
 };

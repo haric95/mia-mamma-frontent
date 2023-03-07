@@ -5,7 +5,7 @@ import { ImSoundcloud } from "react-icons/im";
 
 export const Footer = () => {
   return (
-    <div className="border-t-8 p-4 border-main flex justify-between bg-white w-full">
+    <div className="border-t-8 mt-16 p-4 border-main flex justify-between bg-white w-full">
       <div className="l">
         <div className="mb-4">
           <h4 className="text-xs">

@@ -18,10 +18,16 @@ module.exports = {
         main: "#7DD658",
         "main-light": "#D0F0C1",
       },
+      borderRadius: {
+        mamma: "100px",
+      },
       fontFamily: {
         title: ["Montserrat", "sans-serif"],
         main: ["Montserrat", "sans-serif"],
       },
+    },
+    borderRadius: {
+      mamma: "100px",
     },
     screens: {
       sm: "640px",

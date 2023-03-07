@@ -21,7 +21,7 @@ export const LinkArray: React.FC<LinkArrayProps> = ({
         if (link.external) {
           return (
             <a
-              className="py-2 px-4 hover:underline"
+              className="py-2 px-4 hover:underline w-full"
               href={link.link}
               target="_blank"
               rel="noreferrerx"
