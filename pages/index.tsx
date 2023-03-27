@@ -6,6 +6,12 @@ import { Footer } from "../components/Footer";
 import { Section } from "../components/Section";
 
 import Hari from "../assets/hari.jpeg";
+import Group1 from "../assets/group-1.png";
+import Kids1 from "../assets/kids-1.png";
+import MauroMin from "../assets/mauro-min.png";
+import Gallery1 from "../assets/gallery-1.png";
+import Gallery2 from "../assets/gallery-2.png";
+import Gallery3 from "../assets/gallery-3.png";
 import { Button } from "../components/Button";
 import { Gallery } from "../components/Gallery";
 
@@ -23,7 +29,7 @@ const Home = () => {
           <Section className="bg-main-light w-full mb-8">
             <div className="w-full flex md:h-[480px]">
               <div className="h-full w-1/2 rounded-mamma overflow-hidden relative">
-                <Image src={Hari} alt="hari" layout="fill" objectFit="cover" />
+                <Image src={Kids1} alt="hari" layout="fill" objectFit="cover" />
               </div>
               <div className="w-1/2 p-8">
                 <div className="bg-main rounded-[50%] w-full h-full flex flex-col justify-end items-center p-8">
@@ -36,7 +42,7 @@ const Home = () => {
             <div className="w-full flex md:h-[480px]">
               <div className="h-full w-full rounded-mamma overflow-hidden relative flex">
                 <Image
-                  src={Hari}
+                  src={Group1}
                   alt="hari"
                   layout="fill"
                   objectFit="cover"
@@ -51,7 +57,7 @@ const Home = () => {
           <div className="w-full h-[480px] flex mb-8">
             <Section className="bg-main-light w-full w-1/2 mr-4 h-full relative">
               <Image
-                src={Hari}
+                src={MauroMin}
                 alt="hari"
                 layout="fill"
                 objectFit="cover"
@@ -69,13 +75,12 @@ const Home = () => {
               <h2 className="text-white text-medium text-center mb-8">
                 We're all about people.
               </h2>
-              <div className="w-full h-[240px] mb-8">
+              <div className="w-full h-[360px] mb-8">
                 <Gallery
                   images={[
-                    { src: Hari, alt: "hari" },
-                    { src: Hari, alt: "hari" },
-                    { src: Hari, alt: "hari" },
-                    { src: Hari, alt: "hari" },
+                    { src: Gallery1, alt: "hari" },
+                    { src: Gallery2, alt: "hari" },
+                    { src: Gallery3, alt: "hari" },
                   ]}
                 />
               </div>
