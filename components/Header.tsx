@@ -79,7 +79,7 @@ export const Header = () => {
 
       {/* mobile drawer */}
       <div
-        className={`z-100 fixed w-screen h-screen bg-white p-8 transition-all ${
+        className={`z-50 fixed w-screen h-screen bg-white p-8 transition-all top-0 ${
           mobileHeaderOpen ? "left-0" : "left-[100%]"
         }`}
       >
@@ -89,7 +89,7 @@ export const Header = () => {
           </button>
         </div>
         <LinkArray
-          containerClass="flex-col mb-8"
+          containerClass="flex-col mb-8 mt-4"
           links={[
             { label: "Home", link: "/", external: false },
             { label: "Our Mission", link: "/our-mission", external: false },
@@ -119,7 +119,7 @@ export const Header = () => {
               external: true,
             },
           ]}
-          containerClass="!bg-red-500 ml-4 text-center"
+          containerClass="!bg-red-500 md:ml-4 text-center"
         />
       </div>
     </>

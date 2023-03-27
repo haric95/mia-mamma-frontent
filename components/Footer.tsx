@@ -1,11 +1,8 @@
 import React from "react";
-import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
-import { FaBandcamp } from "react-icons/fa";
-import { ImSoundcloud } from "react-icons/im";
 
 export const Footer = () => {
   return (
-    <div className="border-t-8 mt-16 p-4 border-main flex justify-between bg-white w-full">
+    <div className="border-t-8 mt-16 p-4 border-main flex flex-col-reverse md:flex-row justify-between bg-white w-full">
       <div className="l">
         <div className="mb-4">
           <h4 className="text-xs">
@@ -33,8 +30,8 @@ export const Footer = () => {
           />
         </div>
       </div>
-      <div className="r">
-        <div className="flex justify-end">
+      <div className="r mb-2 md:mb-0">
+        <div className="flex justify-end w-full mb-4 md:mb-0">
           <div className="flex-col">
             <img src="/images/logo.png" className="h-24" />
             <div className="flex w-full justify-between">
